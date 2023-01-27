@@ -1,0 +1,14 @@
+#box {
+    width: 1100px;
+    height: 1100px;
+    background-color: yellow;
+    text-align: center;
+}
+
+#box p {
+    font-size: 200px;
+}
+
+#color-button {
+    /* Add some styles for the button */
+}
