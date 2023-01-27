@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Daniel's Website</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Daniel's Website</h1>
+    <p>You can find me on:</p>
+    <a href="https://www.instagram.com/daniiel25h" target="_blank">Instagram</a>
+    <br>
+    <a href="https://discordapp.com/users/USERID" target="_blank">Discord</a>
+  </div>
+</body>
+</html>
