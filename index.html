@@ -1,3 +1,13 @@
-<div style="width: 100px; height: 100px; background-color: yellow;">
+<div id="box" style="width: 100px; height: 100px; background-color: yellow;">
     Hello World
 </div>
+
+<button onclick="changeColor()">Change Color</button>
+
+<script>
+    function changeColor() {
+        var colors = ["red", "green", "blue", "orange", "purple"];
+        var randomColor = colors[Math.floor(Math.random() * colors.length)];
+        document.getElementById("box").style.backgroundColor = randomColor;
+    }
+</script>
