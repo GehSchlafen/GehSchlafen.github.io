@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <div id="box">
-        <p>Daniel's Website</p>
-    </div>
-    <button id="color-button" onclick="changeColor()">Change Color</button>
-    <script>
-      function changeColor() {
-        var colors = ["red", "green", "blue", "orange", "purple"];
-        var randomColor = colors[Math.floor(Math.random() * colors.length)];
-        document.getElementById("box").style.backgroundColor = randomColor;
-      }
-    </script>
-  </body>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Daniel's Website</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Daniel's Website</h1>
+    <button id="redirect-button" onclick="redirect()">Go to page full of A's</button>
+  </div>
+  <script>
+    function redirect() {
+      window.location.href = "https://www.example.com/a-page";
+    }
+  </script>
+</body>
 </html>
